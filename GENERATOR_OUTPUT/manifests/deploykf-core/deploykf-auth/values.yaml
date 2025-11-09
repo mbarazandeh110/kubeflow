@@ -44,7 +44,7 @@ generate:
   ## configs for the kubectl container image
   ##
   kubectlImage:
-    repository: "docker.io/bitnami/kubectl"
+    repository: "docker.arvancloud.ir/bitnamilegacy/kubectl"
     tag: "1.26.15-debian-12-r4"
     pullPolicy: "IfNotPresent"
     pullSecret: ""

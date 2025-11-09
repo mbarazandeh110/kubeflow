@@ -52,7 +52,7 @@ kyverno:
       threshold: 10000
       image:
         registry: ""
-        repository: "docker.io/bitnami/kubectl"
+        repository: "docker.arvancloud.ir/bitnamilegacy/kubectl"
         pullPolicy: "IfNotPresent"
 
     clusterAdmissionReports:
@@ -61,7 +61,7 @@ kyverno:
       threshold: 10000
       image:
         registry: ""
-        repository: "docker.io/bitnami/kubectl"
+        repository: "docker.arvancloud.ir/bitnamilegacy/kubectl"
         pullPolicy: "IfNotPresent"
 
   ## Admission controller configuration
